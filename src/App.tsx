@@ -14,7 +14,7 @@ function App() {
     const [data, setData] = useState<DataPropsType[]>([])
 
     const getMeData = () => {
-        setData([])
+        setData ([])
     }
 
     useEffect(()=>{
